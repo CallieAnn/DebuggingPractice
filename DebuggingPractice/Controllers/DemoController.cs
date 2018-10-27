@@ -41,7 +41,7 @@ namespace HttpPractice.Controllers
             return View(numbers);
         }
 
-        [HttpPut]
+        [HttpPost]
         public IActionResult Quiz2(int number1, int number2, int answer)
         {
             string check = "wrong :-(";
